@@ -11,8 +11,10 @@ Abaixo os requisitos propostos pela empresa para as telas a serem desenvolvidas 
 Essa tela deve contar:
 
 [x] Campo de Senha;
+
 [x] Um campo de texto para representar o Login;
-[x] Um Label descrito "PolíƟca de privacidade".
+
+[x] Um Label descrito "Política de privacidade".
 
 ---
 O comportamento da tela:
@@ -26,11 +28,14 @@ O comportamento da tela:
 - Ao tocar no label "PolíƟca de privacidade" uma página web direcionada para o google.com.br deve ser aberta. 
 ---
 Exemplo dado:
+
 ![Exemplo tela de Login](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/ce7fc357-5fde-4fd6-ac4f-02d4e16c175d)
 
 ### Tela de Captura de Informações
 Essa tela deve conter:
-[x] Um card principal e central
+
+[x] Um card principal e central;
+
 [x] Um campo de texto 
 
 ---
@@ -43,7 +48,10 @@ O comportamento da tela:
 - O Icone de excluir deve abrir um pop-up confirmando a ação.
 - Obrigatório a utilização do plugin MOBX para a construção da tela. 
 
+---
+
 Exemplo dado:
+
 ![Exemplo tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/737daae2-7888-4017-a7f3-25227b2f910f)
 
 ## O Desenvolvimento
