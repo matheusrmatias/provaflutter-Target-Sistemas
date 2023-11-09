@@ -9,6 +9,7 @@ Abaixo os requisitos propostos pela empresa para as telas a serem desenvolvidas 
 ### Tela de Login
 
 Essa tela deve contar:
+
 [x] Campo de Senha;
 [x] Um campo de texto para representar o Login;
 [x] Um Label descrito "PolíƟca de privacidade".
@@ -55,13 +56,11 @@ Abaixo o que foi desenvolvido no projeto, com as telas e funcionamento e detalhe
 
 | [Código de Validação de Usuário](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/blob/main/lib/src/screens/login_page.dart) | [Código de Validação de Senha](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/blob/main/lib/src/screens/login_page.dart) |
 | --- | --- |
-| ![Validaçõa Usuário](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/e4575b7b-a9aa-4c4b-86d7-4ade8a3e360a) | ![Validação Senha](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/dc3e3527-9686-44e6-b9f1-eeef9f2fb29a)
- |
+| ![Validaçõa Usuário](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/e4575b7b-a9aa-4c4b-86d7-4ade8a3e360a) | ![Validação Senha](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/dc3e3527-9686-44e6-b9f1-eeef9f2fb29a) |
 
 ### Tela de Captura de Informações
 
 | Tela |  |  |
 | --- | --- | --- |
-| ![Tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/0d3e5154-550b-473a-90c0-5036ec78257f) | ![Tela de Captura de Informações 2](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/4964dd72-f974-49c2-ac3e-904d58a25e1b) | ![Tela de Captura de Informações 3](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/c8041885-c4e0-4296-b968-2b5f6113da6d)
- |
- | ![Tela de Captura de Informações 4](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/5f160f92-36c2-40e3-bfa9-50544ec5fbd2) |  |  |
+| ![Tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/0d3e5154-550b-473a-90c0-5036ec78257f) | ![Tela de Captura de Informações 2](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/4964dd72-f974-49c2-ac3e-904d58a25e1b) | ![Tela de Captura de Informações 3](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/c8041885-c4e0-4296-b968-2b5f6113da6d) |
+| ![Tela de Captura de Informações 4](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/5f160f92-36c2-40e3-bfa9-50544ec5fbd2) |  |  |
