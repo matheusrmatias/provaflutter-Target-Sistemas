@@ -9,7 +9,7 @@ Prova de flutter apresentada pela Target Sistemas para a vaga de Desenvolvedor F
 - [🧑🏻‍💻 O Desenvolvimento](#-o-desenvolvimento)
     - [📱 Tela de Login](#-tela-de-login-1)
     - [📱 Tela de captura de Informação](#-tela-de-captura-de-informações-1)
-- [📽️ Vídeo de Demonstração](#-vídeo-de-demonstração)
+- [📽️ Vídeo de Demonstração](#%EF%B8%8F-vídeo-de-demonstração)
 
 
 ## 🛠️ Requisitos do projeto
