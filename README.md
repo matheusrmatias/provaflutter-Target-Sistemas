@@ -1,6 +1,6 @@
 # Prova de Flutter
 Prova de flutter apresentada pela Target Sistemas para a vaga de Desenvolvedor Flutter.
-
+[🔗 Link da Prova](https://communication-assets.gupy.io/production/companies/519/emails/1699534614835/communication-assets-bea12160-7a4f-11ee-bc34-0fe607fe7114/prova_flutter.pdf)
 ## Índice
 
 - [🛠️ Requisitos do Projeto](#%EF%B8%8F-requisitos-do-projeto)
@@ -13,7 +13,7 @@ Prova de flutter apresentada pela Target Sistemas para a vaga de Desenvolvedor F
 
 
 ## 🛠️ Requisitos do projeto
-Abaixo os requisitos propostos pela empresa para as telas a serem desenvolvidas na avaliação.
+Abaixo os requisitos propostos pela organização para as telas a serem desenvolvidas na avaliação.
 
 ### 📱 Tela de Login
 
@@ -33,8 +33,8 @@ O comportamento da tela:
 
 - Ambos os campos não podem ultrapassar 20 caracteres.
 - Ambos os campos não podem terminar com o caractere de espaço no final.
-- Se ambas as informações esƟveram preenchidas deve ir para a próxima tela.
-- Ao tocar no label "PolíƟca de privacidade" uma página web direcionada para o google.com.br deve ser aberta. 
+- Se ambas as informações estiverem preenchidas deve ir para a próxima tela.
+- Ao tocar no label "Política de privacidade" uma página web direcionada para o `google.com.br` deve ser aberta. 
 ---
 Exemplo dado:
 
