@@ -10,11 +10,11 @@ Abaixo os requisitos propostos pela empresa para as telas a serem desenvolvidas 
 
 Essa tela deve contar:
 
-[x] Campo de Senha;
+- [x] Campo de Senha;
 
-[x] Um campo de texto para representar o Login;
+- [x] Um campo de texto para representar o Login;
 
-[x] Um Label descrito "Política de privacidade".
+- [x] Um Label descrito "Política de privacidade".
 
 ---
 O comportamento da tela:
@@ -34,9 +34,9 @@ Exemplo dado:
 ### Tela de Captura de Informações
 Essa tela deve conter:
 
-[x] Um card principal e central;
+- [x] Um card principal e central;
 
-[x] Um campo de texto 
+- [x] Um campo de texto 
 
 ---
 
