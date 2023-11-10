@@ -17,6 +17,7 @@ class _InfoCapturePageState extends State<InfoCapturePage> {
   final _formKey = GlobalKey<FormState>();
   final infoStore = TextStore();
   final input = TextEditingController();
+  final focusNode = FocusNode();
 
   @override
   Widget build(BuildContext context) {
@@ -70,6 +71,8 @@ class _InfoCapturePageState extends State<InfoCapturePage> {
                               controller: input,
                               hintText: 'Digite seu Texto',
                               margin: const EdgeInsets.only(top: 32),
+                              focusNode: focusNode,
+                              autoFocus: true,
                               validator: (value){
                                 if(value!.isEmpty){
                                   return 'O campo tem que ser preenchido';
@@ -93,6 +96,7 @@ class _InfoCapturePageState extends State<InfoCapturePage> {
     if(_formKey.currentState!.validate()){
       infoStore.addText(value);
       input.clear();
+      focusNode.requestFocus();
     }
   }
 }

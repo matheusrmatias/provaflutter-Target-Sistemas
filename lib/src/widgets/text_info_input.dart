@@ -7,13 +7,18 @@ class TextInfoInput extends StatelessWidget {
   final Function(String)? onFieldSubmitted;
   final String? hintText;
   final Function(String)? onChanged;
+  final FocusNode? focusNode;
+  final bool? autoFocus;
+
   const TextInfoInput({
     super.key, required this.controller,
     this.validator,
     this.onFieldSubmitted,
     this.onChanged,
     this.margin,
-    this.hintText
+    this.hintText,
+    this.focusNode,
+    this.autoFocus
   });
 
   @override
@@ -23,6 +28,8 @@ class TextInfoInput extends StatelessWidget {
       child: TextFormField(
         onChanged: onChanged,
         validator: validator,
+        focusNode: focusNode,
+        autofocus: autoFocus??false,
         onFieldSubmitted: onFieldSubmitted,
         controller: controller,
         textAlign: TextAlign.center,

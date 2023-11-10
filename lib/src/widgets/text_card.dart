@@ -17,6 +17,7 @@ class _TextCardState extends State<TextCard> {
   bool inEdit = false;
   final input = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+  final focusNode = FocusNode();
 
 
   @override
@@ -36,6 +37,7 @@ class _TextCardState extends State<TextCard> {
               TextInfoInput(
                   controller: input,
                   hintText: 'Digite seu Texto',
+                  focusNode: focusNode,
                   onFieldSubmitted: (value)=>_onSubmited(),
                   validator: (value){
                     if(value!.isEmpty){
@@ -57,6 +59,7 @@ class _TextCardState extends State<TextCard> {
             IconButton(
                 onPressed: (){
                   input.text = widget.text;
+                  focusNode.requestFocus();
                   setState(()=>inEdit=true);
                 },
                 icon: const Icon(Icons.edit)
