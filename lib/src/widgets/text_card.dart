@@ -4,10 +4,10 @@ import 'package:prova_flutter/src/widgets/show_confirm_pop_up.dart';
 import 'package:prova_flutter/src/widgets/text_info_input.dart';
 
 class TextCard extends StatefulWidget {
-  String text;
-  int index;
+  final String text;
+  final int index;
   final TextStore store;
-  TextCard({super.key, required this.text, required this.index, required this.store});
+  const TextCard({super.key, required this.text, required this.index, required this.store});
 
   @override
   State<TextCard> createState() => _TextCardState();
@@ -18,12 +18,6 @@ class _TextCardState extends State<TextCard> {
   final input = TextEditingController();
   final _formKey = GlobalKey<FormState>();
 
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    input.text = widget.text;
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -62,6 +56,7 @@ class _TextCardState extends State<TextCard> {
             ):
             IconButton(
                 onPressed: (){
+                  input.text = widget.text;
                   setState(()=>inEdit=true);
                 },
                 icon: const Icon(Icons.edit)

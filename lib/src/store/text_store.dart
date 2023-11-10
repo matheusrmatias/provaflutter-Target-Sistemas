@@ -17,22 +17,22 @@ abstract class _TextStore with Store{
   @action
   void addText(String value){
     textList.add(value);
-    savaText();
+    saveText();
   }
 
   @action
   void removeText(int index){
     textList.removeAt(index);
-    savaText();
+    saveText();
   }
 
   @action
   void editText(String value,int index){
     textList[index] = value;
-    savaText();
+    saveText();
   }
 
-  savaText(){
+  saveText(){
     SharedPreferences.getInstance().then((instance){
       instance.setStringList('textList', textList);
     });

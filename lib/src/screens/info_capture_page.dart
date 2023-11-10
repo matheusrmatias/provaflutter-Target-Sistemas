@@ -55,10 +55,13 @@ class _InfoCapturePageState extends State<InfoCapturePage> {
                             ),
                             child: Observer(
                               builder: (_){
-                                if(infoStore.textList.isEmpty)return const Center(child: Text('Nenhum texto registrado.',textAlign: TextAlign.center),);
+                                if(infoStore.textList.isEmpty)return const Center(child: Text('Nenhum texto registrado.',textAlign: TextAlign.center));
                                 return ListView.builder(
                                     itemCount: infoStore.textList.length,
-                                    itemBuilder: (_,index)=>TextCard(text: infoStore.textList[index], index: index,store: infoStore,)
+                                    itemBuilder: (_,index){
+                                      int reverseIndex=(infoStore.textList.length-1)-index;
+                                      return TextCard(text: infoStore.textList[reverseIndex], index: reverseIndex,store: infoStore);
+                                    }
                                 );
                               },
                             )
