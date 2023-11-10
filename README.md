@@ -3,10 +3,15 @@ Prova de flutter apresentada pela Target Sistemas para a vaga de Desenvolvedor F
 
 ## Índice
 
-## Requisitos do projeto
+- <a href="#requisitos-do-projeto">🛠️ Requisitos do Projeto</a>
+    - <a href="#tela-de-login">📱 Tela de Login</a>
+    - <a href="#tela-de-captura-de-infomação">📱 Tela de captura de Informação</a>
+
+
+## 🛠️ Requisitos do projeto
 Abaixo os requisitos propostos pela empresa para as telas a serem desenvolvidas na avaliação.
 
-### Tela de Login
+### 📱 Tela de Login
 
 Essa tela deve contar:
 
@@ -31,7 +36,7 @@ Exemplo dado:
 
 ![Exemplo tela de Login](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/ce7fc357-5fde-4fd6-ac4f-02d4e16c175d)
 
-### Tela de Captura de Informações
+### 📱 Tela de Captura de Informações
 Essa tela deve conter:
 
 - [x] Um card principal e central;
@@ -54,9 +59,9 @@ Exemplo dado:
 
 ![Exemplo tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/737daae2-7888-4017-a7f3-25227b2f910f)
 
-## O Desenvolvimento
+## 🧑🏻‍💻 O Desenvolvimento
 Abaixo o que foi desenvolvido no projeto, com as telas e funcionamento e detalhes do código.
-### Tela de Login
+### 📱 Tela de Login
 
 | Tela | Validação 1 | Validação 2 |
 | --- | --- | --- |
@@ -66,7 +71,7 @@ Abaixo o que foi desenvolvido no projeto, com as telas e funcionamento e detalhe
 | --- | --- |
 | ![Validaçõa Usuário](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/e4575b7b-a9aa-4c4b-86d7-4ade8a3e360a) | ![Validação Senha](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/dc3e3527-9686-44e6-b9f1-eeef9f2fb29a) |
 
-### Tela de Captura de Informações
+### 📱 Tela de Captura de Informações
 
 | Tela |  |  |
 | --- | --- | --- |
