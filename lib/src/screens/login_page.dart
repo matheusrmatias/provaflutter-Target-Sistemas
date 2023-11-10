@@ -66,6 +66,7 @@ class _LoginPageState extends State<LoginPage> {
                           icon: const Icon(Icons.lock),
                           obscure: true,
                           margin: const EdgeInsets.symmetric(vertical: 4),
+                          onSubmitted: (value)=>_onSubmitted(),
                           maxLenght: 20,
                           inputFormatters: [
                             FilteringTextInputFormatter.allow(RegExp('[A-z0-9]'))
@@ -77,13 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                           },
                         ),
                         LoginButton(
-                            onPressed: (){
-                              if(_formKey.currentState!.validate()){
-                                Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context){
-                                  return const InfoCapturePage();
-                                }));
-                              }
-                            },
+                            onPressed: _onSubmitted,
                             text: 'Entrar',
                             margin: const EdgeInsets.only(top: 32)
                         )
@@ -98,4 +93,12 @@ class _LoginPageState extends State<LoginPage> {
       ),
     );
   }
+  _onSubmitted(){
+    if(_formKey.currentState!.validate()){
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (BuildContext context){
+        return const InfoCapturePage();
+      }));
+    }
+  }
+
 }
