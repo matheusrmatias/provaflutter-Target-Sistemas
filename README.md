@@ -83,8 +83,8 @@ Siga o passo a passo da documentação oficial do Firebase "[`Adicionar o Fireba
 
 ### Habilitar Autenticação
 No console do Firebase, vá até "Authentication" e habilite o login por email e senha. Após isso adicione um usuário para teste.
-[📽️ Link do Vídeo](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/9fdde0b7-1c70-4336-b4ef-90ea2181e5b5
-)
+
+[📽️ Link do Vídeo](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/9fdde0b7-1c70-4336-b4ef-90ea2181e5b5)
 
 ---
 ## 🧑🏻‍💻 O Desenvolvimento
