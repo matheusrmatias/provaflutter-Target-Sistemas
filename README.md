@@ -8,12 +8,7 @@ Prova de flutter apresentada pela [`Target Sistemas`](https://targetsistemas.com
   - [Índice](#índice)
   - [🛠️ Requisitos do projeto](#️-requisitos-do-projeto)
     - [📱 Tela de Login](#-tela-de-login)
-      - [O comportamento da tela:](#o-comportamento-da-tela)
-      - [Exemplo dado:](#exemplo-dado)
     - [📱 Tela de Captura de Informações](#-tela-de-captura-de-informações)
-      - [Essa tela deve conter:](#essa-tela-deve-conter)
-      - [O comportamento da tela:](#o-comportamento-da-tela-1)
-      - [Exemplo dado:](#exemplo-dado-1)
   - [🏁 Iniciar o Projeto](#-iniciar-o-projeto)
     - [Clonando o Projeto](#clonando-o-projeto)
     - [Obtendo as dependêcias](#obtendo-as-dependêcias)
@@ -67,7 +62,7 @@ Abaixo os requisitos propostos pela organização para as telas a serem desenvol
     
    #### Essa tela deve conter:
 
-- [ ] Um card principal e central;
+- [x] Um card principal e central;
 
 - [x] Um campo de texto 
 
