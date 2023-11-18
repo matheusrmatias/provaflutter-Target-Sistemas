@@ -4,15 +4,28 @@ Prova de flutter apresentada pela [`Target Sistemas`](https://targetsistemas.com
 [🔗 Link da Prova](https://communication-assets.gupy.io/production/companies/519/emails/1699534614835/communication-assets-bea12160-7a4f-11ee-bc34-0fe607fe7114/prova_flutter.pdf)
 ## Índice
 
-- [🛠️ Requisitos do Projeto](#%EF%B8%8F-requisitos-do-projeto)
+- [Prova de Flutter](#prova-de-flutter)
+  - [Índice](#índice)
+  - [🛠️ Requisitos do projeto](#️-requisitos-do-projeto)
     - [📱 Tela de Login](#-tela-de-login)
-    - [📱 Tela de captura de Informação](#-tela-de-captura-de-informações)
-- [🏁 Iniciar o Projeto](#-iniciar-o-projeto)
-- [🧑🏻‍💻 O Desenvolvimento](#-o-desenvolvimento)
+      - [O comportamento da tela:](#o-comportamento-da-tela)
+      - [Exemplo dado:](#exemplo-dado)
+    - [📱 Tela de Captura de Informações](#-tela-de-captura-de-informações)
+      - [Essa tela deve conter:](#essa-tela-deve-conter)
+      - [O comportamento da tela:](#o-comportamento-da-tela-1)
+      - [Exemplo dado:](#exemplo-dado-1)
+  - [🏁 Iniciar o Projeto](#-iniciar-o-projeto)
+    - [Clonando o Projeto](#clonando-o-projeto)
+    - [Obtendo as dependêcias](#obtendo-as-dependêcias)
+    - [Conectando ao Firebase](#conectando-ao-firebase)
+    - [Habilitar Autenticação](#habilitar-autenticação)
+  - [🧑🏻‍💻 O Desenvolvimento](#-o-desenvolvimento)
     - [🌐 Conexão com o Firebase](#-conexão-com-o-firebase)
+      - [User 1](#user-1)
+      - [User 2](#user-2)
     - [📱 Tela de Login](#-tela-de-login-1)
-    - [📱 Tela de captura de Informação](#-tela-de-captura-de-informações-1)
-- [📽️ Vídeo de Demonstração](#%EF%B8%8F-vídeo-de-demonstração)
+    - [📱 Tela de Captura de Informações](#-tela-de-captura-de-informações-1)
+  - [📽️ Vídeo de Demonstração](#️-vídeo-de-demonstração)
 
 ---
 ## 🛠️ Requisitos do projeto
@@ -23,6 +36,7 @@ Abaixo os requisitos propostos pela organização para as telas a serem desenvol
 ### 📱 Tela de Login
 <details>
     <summary>Detalhes</summary>
+
     #### Essa tela deve contar:
 
 - [x] Campo de Senha;
@@ -50,9 +64,10 @@ Abaixo os requisitos propostos pela organização para as telas a serem desenvol
 ### 📱 Tela de Captura de Informações
 <details>
     <summary>Detalhes</summary>
+    
    #### Essa tela deve conter:
 
-- [x] Um card principal e central;
+- [ ] Um card principal e central;
 
 - [x] Um campo de texto 
 
@@ -126,20 +141,20 @@ Embora uma conexão com uma API não fosse obrigatória, optei por conectar ao [
 
 ### 📱 Tela de Login
 
-| Tela | Validação 1 | Validação 2 |
-| --- | --- | --- |
+| Tela                                                                                                                                   | Validação 1                                                                                                                          | Validação 2                                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Tela de Login](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/1cb80ede-bf48-43dd-adfb-917b8a813c8b) | ![Validação 1](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/16cb9143-65af-4ad5-bbd6-4293030d9ddd) | ![Validação 2](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/8c245717-d53c-4fc5-acd5-20f4adf70050) |
 
 | [Código de Validação de Usuário](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/blob/main/lib/src/screens/login_page.dart) | [Código de Validação de Senha](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/blob/main/lib/src/screens/login_page.dart) |
-| --- | --- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Validaçõa Usuário](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/e4575b7b-a9aa-4c4b-86d7-4ade8a3e360a) | ![Validação Senha](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/dc3e3527-9686-44e6-b9f1-eeef9f2fb29a) |
 
 ### 📱 Tela de Captura de Informações
 
-| Tela |  |  |
-| --- | --- | --- |
-| ![Tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/0d3e5154-550b-473a-90c0-5036ec78257f) | ![Tela de Captura de Informações 2](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/4964dd72-f974-49c2-ac3e-904d58a25e1b) | ![Tela de Captura de Informações 3](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/c8041885-c4e0-4296-b968-2b5f6113da6d) |
-| ![Tela de Captura de Informações 4](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/5f160f92-36c2-40e3-bfa9-50544ec5fbd2) |  |  |
+| Tela                                                                                                                                                      |                                                                                                                                                           |                                                                                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/0d3e5154-550b-473a-90c0-5036ec78257f)   | ![Tela de Captura de Informações 2](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/4964dd72-f974-49c2-ac3e-904d58a25e1b) | ![Tela de Captura de Informações 3](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/c8041885-c4e0-4296-b968-2b5f6113da6d) |
+| ![Tela de Captura de Informações 4](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/5f160f92-36c2-40e3-bfa9-50544ec5fbd2) |                                                                                                                                                           |                                                                                                                                                           |
 
 ---
 
