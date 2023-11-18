@@ -154,4 +154,4 @@ Embora uma conexão com uma API não fosse obrigatória, optei por conectar ao [
 ---
 
 ## 📽️ Vídeo de Demonstração
-[🔗 Link do Vídeo](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/ceb7720c-970c-49c4-bf86-91f9228d096c)
+[🔗 Link do Vídeo](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/093107c1-86e4-4ec4-a05f-c7a4ecf5801f)
