@@ -18,9 +18,12 @@ Prova de flutter apresentada pela [`Target Sistemas`](https://targetsistemas.com
 ## 🛠️ Requisitos do projeto
 Abaixo os requisitos propostos pela organização para as telas a serem desenvolvidas na avaliação.
 
-### 📱 Tela de Login
 
-#### Essa tela deve contar:
+
+### 📱 Tela de Login
+<details>
+    <summary>Detalhes</summary>
+    #### Essa tela deve contar:
 
 - [x] Campo de Senha;
 
@@ -41,9 +44,13 @@ Abaixo os requisitos propostos pela organização para as telas a serem desenvol
 #### Exemplo dado:
 
 ![Exemplo tela de Login](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/ce7fc357-5fde-4fd6-ac4f-02d4e16c175d)
+</details>
+
 
 ### 📱 Tela de Captura de Informações
-#### Essa tela deve conter:
+<details>
+    <summary>Detalhes</summary>
+   #### Essa tela deve conter:
 
 - [x] Um card principal e central;
 
@@ -60,6 +67,8 @@ Abaixo os requisitos propostos pela organização para as telas a serem desenvol
 #### Exemplo dado:
 
 ![Exemplo tela de Captura de Informações](https://github.com/matheusrmatias/provaflutter-Target-Sistemas/assets/115509118/737daae2-7888-4017-a7f3-25227b2f910f)
+
+</details>
 
 ---
 ## 🏁 Iniciar o Projeto
