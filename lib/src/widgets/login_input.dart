@@ -12,19 +12,21 @@ class LoginInput extends StatelessWidget {
   final int? maxLenght;
   final bool? counterText;
   final Function(String)? onSubmitted;
+  final String? hintText;
 
-  const LoginInput({
-    super.key,
-    required this.controller,
-    required this.label,
-    this.icon,
-    this.validator,
-    this.obscure, this.margin,
-    this.inputFormatters,
-    this.maxLenght,
-    this.counterText,
-    this.onSubmitted
-  });
+  const LoginInput(
+      {super.key,
+      required this.controller,
+      required this.label,
+      this.icon,
+      this.validator,
+      this.obscure,
+      this.margin,
+      this.inputFormatters,
+      this.maxLenght,
+      this.counterText,
+      this.onSubmitted,
+      this.hintText});
 
   @override
   Widget build(BuildContext context) {
@@ -34,8 +36,9 @@ class LoginInput extends StatelessWidget {
         children: [
           Row(children: [
             const SizedBox(width: 8),
-            Flexible(child: Text(label,
-                style: const TextStyle(color: Colors.white, fontSize: 16)))
+            Flexible(
+                child: Text(label,
+                    style: const TextStyle(color: Colors.white, fontSize: 16)))
           ]),
           Padding(
             padding: const EdgeInsets.all(4),
@@ -47,6 +50,7 @@ class LoginInput extends StatelessWidget {
               maxLength: maxLenght,
               onFieldSubmitted: onSubmitted,
               decoration: InputDecoration(
+                  hintText: hintText,
                   filled: true,
                   counterText: counterText ?? false ? null : '',
                   prefixIcon: icon,
@@ -54,9 +58,7 @@ class LoginInput extends StatelessWidget {
                   errorStyle: const TextStyle(color: Colors.red),
                   border: const OutlineInputBorder(
                       borderRadius: BorderRadius.all(Radius.circular(4)),
-                      borderSide: BorderSide.none
-                  )
-              ),
+                      borderSide: BorderSide.none)),
             ),
           )
         ],

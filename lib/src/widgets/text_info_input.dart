@@ -11,14 +11,15 @@ class TextInfoInput extends StatelessWidget {
   final bool? autoFocus;
 
   const TextInfoInput({
-    super.key, required this.controller,
+    super.key,
+    required this.controller,
     this.validator,
     this.onFieldSubmitted,
     this.onChanged,
     this.margin,
     this.hintText,
     this.focusNode,
-    this.autoFocus
+    this.autoFocus,
   });
 
   @override
@@ -29,11 +30,12 @@ class TextInfoInput extends StatelessWidget {
         onChanged: onChanged,
         validator: validator,
         focusNode: focusNode,
-        autofocus: autoFocus??false,
+        autofocus: autoFocus ?? false,
         onFieldSubmitted: onFieldSubmitted,
         controller: controller,
         textAlign: TextAlign.center,
-        style: const TextStyle(color: Colors.black, fontSize: 16, fontWeight: FontWeight.bold),
+        style: const TextStyle(
+            color: Colors.black, fontSize: 16, fontWeight: FontWeight.bold),
         decoration: InputDecoration(
             filled: true,
             fillColor: Colors.white,
@@ -42,9 +44,7 @@ class TextInfoInput extends StatelessWidget {
             contentPadding: EdgeInsets.zero,
             border: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(4)),
-                borderSide: BorderSide.none
-            )
-        ),
+                borderSide: BorderSide.none)),
       ),
     );
   }

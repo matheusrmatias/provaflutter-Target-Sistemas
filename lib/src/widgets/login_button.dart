@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:prova_flutter/src/themes/main_theme.dart';
 
 class LoginButton extends StatefulWidget {
-  final Function() onPressed;
+  final Function()? onPressed;
   final String text;
   final EdgeInsets? margin;
   const LoginButton({super.key, required this.onPressed, required this.text, this.margin});

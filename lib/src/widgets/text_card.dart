@@ -61,7 +61,7 @@ class _TextCardState extends State<TextCard> {
                   input.text = widget.text;
                   focusNode.requestFocus();
                   setState(()=>inEdit=true);
-                },
+                },            
                 icon: const Icon(Icons.edit)
             ),
 
